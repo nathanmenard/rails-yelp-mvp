@@ -27,6 +27,6 @@
 
 <p>Wessh !!! !</p>
 
-<%= link_to 'Back to all restaurants', restaurants_path %><br>
-<%= link_to 'Edit', edit_restaurant_path(@restaurant) %><br>
-<%= link_to 'Add review', new_restaurant_review_path(@restaurant) %>
+<%= link_to 'Back to all restaurants', restaurants_path, class: "btn btn-primary" %>
+<%= link_to 'Edit', edit_restaurant_path(@restaurant), class: "btn btn-primary" %>
+<%= link_to 'Add review', new_restaurant_review_path(@restaurant), class: "btn btn-primary" %>
